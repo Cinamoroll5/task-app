@@ -18,22 +18,4 @@ def add_tasks():
         print(task)
         tasks.append(task)
     return flask.render_template("add_tasks.html",tasks=tasks)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 app.run()
